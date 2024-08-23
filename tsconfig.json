@@ -10,6 +10,11 @@
     "lib": ["ES2023"],
     "esModuleInterop": true
   },
-  "include": ["types"],
+  "paths": {
+    "@pessoa/*": ["pessoa/*"],
+    "@enums/*": ["enums/*"],
+    "@usuario/*": ["pessoa/usuario/*"]
+  },
+  "include": ["enums", "pessoa"],
   "exclude": ["node_modules", "dist"]
 }
