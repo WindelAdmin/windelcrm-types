@@ -12,11 +12,11 @@
     "baseUrl": "./",
     "paths": {
       "@src/*": ["src/*"],
-      "@pessoa/*": ["src/pessoa/*"],
-      "@enums/*": ["src/enums/*"],
-      "@usuario/*": ["src/pessoa/usuario/*"]
+      "@pessoa/*": ["@interfaces/*"],
+      "@enums/*": ["@enums/*"],
+      "@usuario/*": ["@interfaces/usuario/*"]
     }
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "@enums", "@interfaces"],
   "exclude": ["node_modules", "dist"]
 }
