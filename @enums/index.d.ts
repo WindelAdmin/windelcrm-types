@@ -16,3 +16,9 @@ export enum UsuarioSetor {
   RECURSOS_HUMANOS = 'RECURSOS_HUMANOS',
   MASTER = 'MASTER',
 }
+
+export enum TipoUnidadeNegocio {
+  MATRIZ = 'MATRIZ',
+  FILIAL = 'FILIAL',
+  REVENDA = 'REVENDA',
+}
