@@ -5,16 +5,18 @@
     "declarationDir": "./dist",
     "strict": true,
     "moduleResolution": "node",
-    "target": "ES2023",
-    "module": "commonjs",
-    "lib": ["ES2023"],
-    "esModuleInterop": true
+    "target": "ES2022",
+    "module": "CommonJS",
+    "lib": ["ES2022"],
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@pessoa/*": ["src/pessoa/*"],
+      "@enums/*": ["src/enums/*"],
+      "@usuario/*": ["src/pessoa/usuario/*"]
+    }
   },
-  "paths": {
-    "@pessoa/*": ["pessoa/*"],
-    "@enums/*": ["enums/*"],
-    "@usuario/*": ["pessoa/usuario/*"]
-  },
-  "include": ["enums", "pessoa"],
+  "include": ["src/enums", "src/pessoa"],
   "exclude": ["node_modules", "dist"]
 }
