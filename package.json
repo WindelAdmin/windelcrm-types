@@ -1,13 +1,13 @@
 {
   "name": "windelcrm-types",
   "version": "1.0.0",
-  "main": "index.d.ts",
-  "types": "index.d.ts",
+  "main": "core.ts",
+  "types": "core.d.ts",
   "license": "MIT",
   "exports": {
-    ".": "./index.d.ts",
-    "./enums": "./src/enums/enums.ts",
-    "./pessoa/inputs": "./src/pessoa/inputs.ts"
+    "./core": "./core.ts",
+    "./enums": "./enums.ts",
+    "./pessoa/inputs": "./inputs.ts"
   },
   "devDependencies": {
     "typescript": "^5.5.4"
