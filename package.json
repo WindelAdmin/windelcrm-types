@@ -1,7 +1,8 @@
 {
   "name": "windelcrm-types",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "index.ts",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.5.4"

@@ -17,6 +17,6 @@
       "@usuario/*": ["src/pessoa/usuario/*"]
     }
   },
-  "include": ["src/enums", "src/pessoa"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
