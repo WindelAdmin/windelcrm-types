@@ -1,2 +1,2 @@
-export * from './src/enums/enums';
-export * from './src/pessoa/pessoa';
+export * as enums from './src/enums/enums';
+export * as pessoa from './src/pessoa/pessoa';
