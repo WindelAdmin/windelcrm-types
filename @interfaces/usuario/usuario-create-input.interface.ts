@@ -1,7 +1,7 @@
 import { DiaSemana } from '@enums/dia-semana.enum';
 import { UsuarioSetor } from '@enums/usuario-setor.enum';
 
-export interface IUsuarioCreateInput {
+interface IUsuarioCreateInput {
   nome: string;
   email: string;
   senha: string;
