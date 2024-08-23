@@ -44,6 +44,7 @@ export interface IUsuarioModel {
   logado?: boolean;
   permissoes?: IPermissaoModel[];
   perfilPermissoesId?: number;
+  status: boolean;
 }
 
 export interface IPermissaoModel {
