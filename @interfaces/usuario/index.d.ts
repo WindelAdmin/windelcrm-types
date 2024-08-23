@@ -30,6 +30,7 @@ export interface IUsuarioUpdateInput {
 }
 
 export interface IUsuarioModel {
+  id: number;
   unidadeNegocioId?: number;
   unidadesNegocioAccess?: IUnidadeNegocioModel[];
   nome?: string;
