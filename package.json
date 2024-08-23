@@ -1,7 +1,7 @@
 {
   "name": "windelcrm-types",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.d.ts",
   "types": "index.d.ts",
   "license": "MIT",
   "exports": {
