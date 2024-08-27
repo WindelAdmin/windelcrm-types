@@ -11,6 +11,6 @@
     "lib": ["ES2022"],
     "esModuleInterop": true
   },
-  "include": ["@enums/**/*", "@types/**/*"],
+  "include": ["@enums/**/*", "@types/**/*", "./"],
   "exclude": ["node_modules"]
 }
