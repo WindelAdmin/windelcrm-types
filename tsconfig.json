@@ -9,15 +9,8 @@
     "target": "ES2022",
     "module": "CommonJS",
     "lib": ["ES2022"],
-    "esModuleInterop": true,
-    "baseUrl": "./",
-    "paths": {
-      "@src/*": ["src/*"],
-      "@pessoa/*": ["src/@interfaces/*"],
-      "@enums/*": ["src/enums/*"],
-      "@usuario/*": ["src/@interfaces/usuario/*"]
-    }
+    "esModuleInterop": true
   },
-  "include": ["src/**/*", "src/enums", "src/@interfaces"],
+  "include": ["@enums/**/*", "@types/**/*"],
   "exclude": ["node_modules"]
 }

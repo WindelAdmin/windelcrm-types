@@ -1,6 +1,8 @@
-import { DiaSemana, UsuarioSetor } from '@src/enums';
-import { IUnidadeNegocioModel } from '@src/interfaces/unidade-negocio';
-import { IUsuarioVendedorModel } from '@src/interfaces/vendedor';
+import { DiaSemana } from '../../@enums/DiaSemana';
+import { UsuarioSetor } from '../../@enums/UsuarioSetor';
+import { IUnidadeNegocioModel } from '../unidade-negocio/IUnidadeNegocio';
+import { IUsuarioVendedorModel } from '../vendedor/UsuarioVendedorModel';
+import { IPermissaoModel } from './IPermissaoModel';
 
 export interface IUsuarioCreateInput {
   nome: string;
@@ -45,11 +47,4 @@ export interface IUsuarioModel {
   permissoes?: IPermissaoModel[];
   perfilPermissoesId?: number;
   status: boolean;
-}
-
-export interface IPermissaoModel {
-  id: number;
-  nome?: string;
-  chave?: string;
-  descricao?: string;
 }
