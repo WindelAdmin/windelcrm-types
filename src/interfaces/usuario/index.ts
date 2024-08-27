@@ -1,6 +1,6 @@
-import { DiaSemana, UsuarioSetor } from '@enums';
-import { IUnidadeNegocioModel } from '@pessoa/unidade-negocio';
-import { IUsuarioVendedorModel } from '@pessoa/vendedor';
+import { DiaSemana, UsuarioSetor } from '@src/enums';
+import { IUnidadeNegocioModel } from '@src/interfaces/unidade-negocio';
+import { IUsuarioVendedorModel } from '@src/interfaces/vendedor';
 
 export interface IUsuarioCreateInput {
   nome: string;

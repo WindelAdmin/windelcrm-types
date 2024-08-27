@@ -1,4 +1,4 @@
-import { TipoUnidadeNegocio } from '@enums/index';
+import { TipoUnidadeNegocio } from '@src/enums/index';
 
 export interface IUnidadeNegocioModel {
   id: number;

@@ -3,6 +3,7 @@
     "outDir": "./dist",
     "declaration": true,
     "declarationDir": "./dist",
+    "emitDeclarationOnly": true,
     "strict": true,
     "moduleResolution": "node",
     "target": "ES2022",
@@ -12,11 +13,11 @@
     "baseUrl": "./",
     "paths": {
       "@src/*": ["src/*"],
-      "@pessoa/*": ["@interfaces/*"],
-      "@enums/*": ["@enums/*"],
-      "@usuario/*": ["@interfaces/usuario/*"]
+      "@pessoa/*": ["src/@interfaces/*"],
+      "@enums/*": ["src/enums/*"],
+      "@usuario/*": ["src/@interfaces/usuario/*"]
     }
   },
-  "include": ["src/**/*", "@enums", "@interfaces"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*", "src/enums", "src/@interfaces"],
+  "exclude": ["node_modules"]
 }

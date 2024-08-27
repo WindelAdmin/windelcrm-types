@@ -1,4 +1,4 @@
-import { IUsuarioModel } from '@pessoa/usuario';
+import { IUsuarioModel } from '@src/interfaces/usuario';
 
 export interface IUsuarioVendedorModel {
   id: number;
