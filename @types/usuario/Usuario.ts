@@ -1,8 +1,8 @@
 import { DiaSemana } from '../../@enums/DiaSemana';
 import { UsuarioSetor } from '../../@enums/UsuarioSetor';
-import { IUnidadeNegocioModel } from '../unidade-negocio/IUnidadeNegocio';
+import { IUnidadeNegocioModel } from '../unidade-negocio/UnidadeNegocio';
 import { IUsuarioVendedorModel } from '../vendedor/UsuarioVendedorModel';
-import { IPermissaoModel } from './IPermissaoModel';
+import { IPermissaoModel } from './PermissaoModel';
 
 export interface IUsuarioCreateInput {
   nome: string;
