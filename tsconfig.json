@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
+    "module": "CommonJS",
+    "target": "ES6",
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "sourceMap": true,
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["@core/**/*"]
+  "include": ["@core/**/*", "index.ts"],
+  "exclude": ["node_modules", "dist"]
 }
