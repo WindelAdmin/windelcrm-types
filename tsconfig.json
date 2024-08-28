@@ -5,5 +5,5 @@
     "target": "ES2022",
     "module": "CommonJS"
   },
-  "include": ["src/**/*"]
+  "include": ["@core/**/*"]
 }
