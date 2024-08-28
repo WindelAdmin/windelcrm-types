@@ -10,7 +10,12 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@core/windelcrm-types": ["libs/windelcrm-types/src"],
+      "@core/windelcrm-types/*": ["libs/windelcrm-types/src/*"]
+    }
   },
   "include": ["@core/**/*", "index.ts"],
   "exclude": ["node_modules", "dist"]
